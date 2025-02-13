@@ -1,17 +1,17 @@
 name: operation_queue
 description: An easy multi task utility that can control the number of concurrency.
-version: 0.5.1
+version: 0.5.3
 homepage: https://github.com/kiyong2020/operation_queue_flutter
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: '>=2.19.6 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
   async: ^2.10.0
   flutter:
     sdk: flutter
-  rxdart: ^0.27.7
+  rxdart: '>=0.27.7'
 
 dev_dependencies:
   flutter_test:
@@ -22,7 +22,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
+# flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:
